@@ -6,4 +6,4 @@ const dataSchema = new mongoose.Schema({
   vibration: { type: Number, required: true }
 });
 
-module.exports = mongoose.model('Data', dataSchema, 'cwathare');
+module.exports = mongoose.model('Data', dataSchema, 'wathare');
